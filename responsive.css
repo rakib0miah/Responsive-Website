@@ -1,0 +1,26 @@
+body{
+    border: 3px solid red;
+    max-width: 1140px;
+}
+
+.img-container{
+    display: flex;
+    width: 100%;
+}
+.img-container div{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .img-container{
+        flex-direction:column-reverse;
+    }
+    .img-container div{
+        width: 100%;
+    }
+    
+}

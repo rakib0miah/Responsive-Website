@@ -1,0 +1,16 @@
+.container{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    /* justify-content:space-evenly; */
+    height: 250px;
+    /* align-items: center; */
+    /* flex-direction: row-reverse ; */
+    /* flex-wrap: wrap; */
+}
+
+.box{
+    border: 3px dotted royalblue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
